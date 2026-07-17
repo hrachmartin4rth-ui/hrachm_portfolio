@@ -385,7 +385,7 @@ body::after{
 }
 .gallery-item:hover::after{ opacity:1; }
 .gallery-item.hide{ display:none; }
-.gallery-item.video-item::after{ content:""; }
+.gallery-item.video-item::after{ content:""; pointer-events:none; }
 
 /* lightbox */
 .lightbox{

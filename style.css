@@ -374,7 +374,7 @@ body::after{
   transition: opacity .35s, transform .45s var(--ease), border-color .3s;
 }
 .gallery-item.vertical{ aspect-ratio: 9/16; }
-.gallery-item.video-wide{ grid-column: 2 / 4; aspect-ratio: 16/9; }
+.gallery-item.video-wide{ grid-column: 1 / 3; aspect-ratio: 16/9; }
 .gallery-item.video-span2{ grid-column: span 2; aspect-ratio: 16/9; }
 .gallery-item:hover{ transform: scale(1.045) rotate(-1deg); border-color: var(--accent); z-index:2; }
 .gallery-item img, .gallery-item iframe, .gallery-item video{ width:100%; height:100%; object-fit:cover; border:none; transition: transform .5s var(--ease); }
